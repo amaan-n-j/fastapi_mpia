@@ -18,7 +18,7 @@ def get_details(class_name,ismedicinal):
     else:
         return None
 
-model_ld = tf.keras.layers.TFSMLayer('../model/mpim_final', call_endpoint='serving_default')
+model_ld = tf.keras.layers.TFSMLayer('./model/mpim_final', call_endpoint='serving_default')
 
 app = FastAPI()
 
