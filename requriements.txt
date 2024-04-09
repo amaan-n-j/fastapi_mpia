@@ -1,0 +1,5 @@
+tensorflow
+uvicorn
+fastapi
+google-generativeai
+numpy
