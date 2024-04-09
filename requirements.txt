@@ -1,6 +1,6 @@
 tensorflow
 uvicorn
 fastapi
-google-generativeai
+-q -U google-generativeai
 numpy
 pillow
